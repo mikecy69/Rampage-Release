@@ -12,8 +12,8 @@ This guide is a practical introduction for beta testers. The in-game Glossary pr
 
 ## Casting cards and using abilities
 To cast cards, use Items, activate abilities, or choose targets for effects, you can use either of two methods:
-  **Double-click** the card or target
-  **Left-click and hold** until the timing meter fills - the desired action is performed when the meter is full. Release early to cancel. The green meter is used when casting a card. The blue meter is used for targeting, replacing cards, attaching Items, and activating abilities. The meter duration can be adjusted in Game Options.
+- **Double-click** the card or target
+- **Left-click and hold** until the timing meter fills - the desired action is performed when the meter is full. Release early to cancel. The green meter is used when casting a card. The blue meter is used for targeting, replacing cards, attaching Items, and activating abilities. The meter duration can be adjusted in Game Options.
 
 ## Card Types
 - **Creatures**: the beasts used to maul your opponent
