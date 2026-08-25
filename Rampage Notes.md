@@ -112,19 +112,19 @@ The CPU has four difficulty levels:
 
 The current approximate thinking budgets are 0.5 seconds for Casual, 1 second for Normal, 3 seconds for Challenging, and 6 seconds for Expert. Complex positions may still be constrained by the number of legal actions and target combinations.
 
-  ### How the CPU thinks
-  The CPU does not follow a fixed script for every card. It generates legal actions and target combinations, simulates their results, and compares the resulting board states using an expected-value model. That evaluation considers factors such as:
-  - Creature Strength, Health, keywords, and persistent damage
-  - Cards in hand and diminishing value near the hand limit
-  - Current and maximum Energy
-  - Hero Life, with increasingly severe penalties at dangerously low Life
-  - Removal, card advantage, control effects, and battlefield presence
-  - Tough, Disciplined, Masterful, Unstoppable, and other combat mechanics
-  - Attack and defense configurations
-  - The value of passing, preserving reactive Spells, or waiting for a better timing window
-  - Replacement decisions during the early, middle, and late game
-  - Likely opponent responses and, at higher levels, defensive needs on the following turn
-  Expert play is still an approximation rather than a perfect solution to every possible position, but its simulation-based approach allows it to recognize many interactions without relying on a separate hard-coded instruction for every card.
+### How the CPU thinks
+The CPU does not follow a fixed script for every card. It generates legal actions and target combinations, simulates their results, and compares the resulting board states using an expected-value model. That evaluation considers factors such as:
+- Creature Strength, Health, keywords, and persistent damage
+- Cards in hand and diminishing value near the hand limit
+- Current and maximum Energy
+- Hero Life, with increasingly severe penalties at dangerously low Life
+- Removal, card advantage, control effects, and battlefield presence
+- Tough, Disciplined, Masterful, Unstoppable, and other combat mechanics
+- Attack and defense configurations
+- The value of passing, preserving reactive Spells, or waiting for a better timing window
+- Replacement decisions during the early, middle, and late game
+- Likely opponent responses and, at higher levels, defensive needs on the following turn
+Expert play is still an approximation rather than a perfect solution to every possible position, but its simulation-based approach allows it to recognize many interactions without relying on a separate hard-coded instruction for every card.
 
 ## Helpful beta-testing habits
 - Read the phase and sub-phase labels before acting
