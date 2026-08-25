@@ -49,13 +49,13 @@ Each Round has 2 Turns: one for each player. Each Turn has 7 phases:
 ## Game modes
 Rampage offers three main play modes:
 
-    ### Constructed
+    Constructed
     Build and bring your own deck. Choose cards that satisfy the deck-building rules for your selected Biomes, save the deck, and refine it between matches.
     
-    ### Draft
+    Draft
     Build a 30-card deck by choosing cards from a sequence of random offerings. Your Biome choices determine which cards may appear. Draft decks keep a win-loss record and retire after reaching seven wins or three losses.
     
-    ### Randomly-Generated
+    Randomly-Generated
     Play with a 30-card deck generated from two random Biomes. This mode exposes players to a wider variety of cards and interactions. Generated decks also keep a win-loss record and retire after seven wins or three losses.
 
 ## Deck Construction
