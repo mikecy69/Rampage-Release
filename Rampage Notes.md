@@ -55,7 +55,7 @@ Rampage offers three play modes:
 - **Constructed**
 Choose your Biomes, build your own deck. Choose cards that satisfy the deck construction rules (shown below), save the deck, and refine it between matches.
 - **Draft**
-Build a 30-card deck by choosing cards from a sequence of random offerings. Your initial Biome choices determine what cards appear. Draft decks keep a win-loss record and retire after reaching seven wins or three losses.
+Build a 30-card deck by choosing cards from a sequence of random offerings -30 sets of 4 cards each. Your initial Biome choices determine what cards appear. Each drafter will be offered exactly 2 epics and 8 rares in the 120 cards they the rest will be commons and uncommons. There are 2 "Two Pick" tokens the drafter can spend to draft 2 cards, rather than 1, out of the set of 4 that are offered. Draft decks keep a win-loss record and retire after reaching seven wins or three losses.
 - **Randomly-Generated**
 Play with a 30-card deck generated from two random Biomes. This mode exposes players to a wider variety of cards and interactions. Generated decks also keep a win-loss record and retire after seven wins or three losses.
 
