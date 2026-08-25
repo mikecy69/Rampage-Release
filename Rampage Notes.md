@@ -11,9 +11,10 @@ This guide is a practical introduction for beta testers. The in-game Glossary pr
 - For creature cards, at the bottom you'll find gold keywords for creature abilities, and the Strength / Health of a creature in the lower right
 
 ## Casting cards and using abilities
-To cast cards, use Items, activate abilities, or choose targets for effects, you can use either of two methods:
+To cast cards, use Items, activate abilities, or choose targets for effects, you can use several methods:
 - **Double-click** the card or target
 - **Left-click and hold** until the timing meter fills - the desired action is performed when the meter is full. Release early to cancel. The green meter is used when casting a card. The blue meter is used for targeting, replacing cards, attaching Items, and activating abilities. The meter duration can be adjusted in Game Options.
+- To the right of your cards in hand is the **Action Button** area. You can "commit" your actions by clicking the buttons shown here, whose labels change depending on the current game actions
 
 ## Card Types
 - **Creatures**: the beasts used to maul your opponent. Read their keywords carefully to get a sense of how to play them properly
@@ -39,6 +40,7 @@ Each Round has 2 Turns: one for each player. Each Turn has 7 phases:
 - A red "End [Phase Name]" button permanently ends that phase and gives up any remaining opportunities available in it
 - Combat buttons confirm selected attackers, defender positioning, and damage decisions
 - The phase wheel above the player portrait and phase labels to the right of the player's hand show the current phase
+- The player going first on Turn 1 will not draw a card for that Turn.
 
 ## Combat
 - Creatures that are declared as attackers become "Exhausted" (unless they have Stamina) and are unavailable to defend during the subsequent turn
@@ -50,10 +52,8 @@ Rampage offers three play modes:
 
 - **Constructed**
 Choose your Biomes, build your own deck. Choose cards that satisfy the deck construction rules (shown below), save the deck, and refine it between matches.
-    
 - **Draft**
 Build a 30-card deck by choosing cards from a sequence of random offerings. Your initial Biome choices determine what cards appear. Draft decks keep a win-loss record and retire after reaching seven wins or three losses.
-    
 - **Randomly-Generated**
 Play with a 30-card deck generated from two random Biomes. This mode exposes players to a wider variety of cards and interactions. Generated decks also keep a win-loss record and retire after seven wins or three losses.
 
@@ -66,19 +66,14 @@ Each Biome has its own personality. Dual-Biome cards combine themes from two dif
 
 ### Forests
 Represent growth, endurance, natural adaptation, and interconnected life. Forest creatures tend to build lasting battlefield value through healing, Boons, regeneration, tribal cooperation, and efficient creature development.
-    
 ### Mountains
 Embody aggression, fire, physical strength, destruction, and explosive momentum. This biome favors hard-hitting creatures, direct damage, combat pressure, destructive abilities, and fast attacks.
-    
 ### Oceans
 Reward knowledge, flexibility, manipulation, and carefully timed responses. Ocean cards often draw, Discover, Filter, return objects to hand, alter control, or use Flying and reactive effects to outmaneuver the opponent.
-    
 ### Savannahs
 Emphasizes courage, discipline, healing, formation fighting, and communal strength. Savannah armies excel at coordinated combat, protection, Life gain, Boons, and creatures that become stronger when fighting beside allies.
-    
 ### Swamps
 Turns death, sacrifice, decay, fear, and graveyards into resources. Swamp tactics use Wounds, discard, resurrection, death triggers, draining effects, and creatures that remain dangerous even when they die.
-    
 ### Universal
 Universal cards are not tied to one Biome. They include broadly useful creatures, Items, Enchantments, and utility effects that can support many different strategies. Universal does not function as a Biome when satisfying deck-building requirements.
 
@@ -87,21 +82,25 @@ During a duel, the Settings icon in the upper-left corner of the match screen op
 
 ### Card Size
 Changes the size of cards shown on the battlefield
-    
 ### Cast-Meter Duration
 Controls how long you must hold the mouse button before a hold-to-cast or hold-to-target action completes
-    
 ### Music Volume
 Controls landing-screen and duel background music
-    
 ### Sound Effects
 Controls casting, targeting, movement, combat, draw, replace, and other gameplay sounds
-    
 ### Make beneficial effects optional
 When checked, normally beneficial effects (healing, card drawing, etc) may ask for confirmation instead of resolving automatically. Leave it unchecked for automatic resolution of untargeted beneficial effects whenever the rules permit.
-    
 ### Auto-Pass Priority with no Legal Moves
 When checked, the game automatically passes priority when you have no legal response. When unchecked, the game stops at priority opportunities even when no legal move is available, allowing closer observation and manual testing.
+
+## Other UI Elements
+- Your character portrait can by changed by right-clicking and choosing a different one.
+- Your life total is shown below your portrait. Both players start with 20 Life.
+- A timer near your life total counts down how long you have to make decisions before priority is passed to your opponent.
+- The **Phase Wheel** rotates to show you the Turn phase. The apex of that wheel is green during your turn and gray during the opponent's turn.
+- The **Energy Wheel** shows you how many maximum and available energy "pips" you currently have. Available pips are filled blue, unavailable are empty circles. In Rampage, maximum energy starts at 1 on Turn 1 and increases by 1 each turn. It rises no higher than 10.
+- Your library and graveyard at shown at the lower left. You can click your graveyard to open it and view the cards there.
+- The "stack" is shown in the left-middle of the screen during a duel. That's where actions go before they are resolved. Players get an opportunity to react to most stack actions with Spells or Spell-speed abilities.
 
 ## CPU difficulty
 The CPU has four difficulty levels:
@@ -109,7 +108,6 @@ The CPU has four difficulty levels:
 - **Normal** — Searches more alternatives with less randomness and provides a moderate challenge.
 - **Challenging** — Examines substantially more plays and combat configurations and forecasts important consequences into the opponent's next turn.
 - **Expert** — Uses the broadest search, deepest rollouts, strongest combat exploration, no deliberate scoring noise, and next-turn forecasting. Intended to find the highest-value line available within its thinking budget.
-
 The current approximate thinking budgets are 0.5 seconds for Casual, 1 second for Normal, 3 seconds for Challenging, and 6 seconds for Expert. Complex positions may still be constrained by the number of legal actions and target combinations.
 
 ### How the CPU thinks
