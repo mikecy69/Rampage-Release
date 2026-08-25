@@ -94,7 +94,7 @@ When checked, the game automatically passes priority when you have no legal resp
 ## Other UI Elements
 - Your character portrait can by changed by right-clicking and choosing a different one.
 - Your life total is shown below your portrait. Both players start with 20 Life.
-- A timer near your life total counts down how long you have to make decisions before priority is passed to your opponent.
+- A silver timer to the right of your life total counts down how long you have to make decisions before priority is passed to your opponent.
 - The **Phase Wheel** rotates to show you the Turn phase. The apex of that wheel is green during your turn and gray during the opponent's turn.
 - The **Energy Wheel** shows you how many maximum and available energy "pips" you currently have. Available pips are filled blue, unavailable are empty circles. In Rampage, maximum energy starts at 1 on Turn 1 and increases by 1 each turn. It rises no higher than 10.
 - Your library and graveyard at shown at the lower left. You can click your graveyard to open it and view the cards there.
