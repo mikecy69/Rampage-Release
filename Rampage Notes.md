@@ -15,6 +15,7 @@ To cast cards, use Items, activate abilities, or choose targets for effects, you
 - **Double-click** the card or target
 - **Left-click and hold** until the timing meter fills - the desired action is performed when the meter is full. Release early to cancel. The green meter is used when casting a card. The blue meter is used for targeting, replacing cards, attaching Items, and activating abilities. The meter duration can be adjusted in Game Options.
 - To the right of your cards in hand is the **Action Button** area. You can "commit" your actions by clicking the buttons shown here, whose labels change depending on the current game actions
+- There are only 8 available battlefield spaces for creatures per player. If a 9th non-token creature is cast, the caster will have to choose which current board spot to replace, or choose not to resolve the creature at all. Any spell/effect that produces tokens will not produce any with a full board. If some spots are open, but not enough for all produced tokens, then a partial number of tokens will be produced to fill the empty slots.
 
 ## Card Types
 - **Creatures**: the beasts used to maul your opponent. Read their keywords carefully to get a sense of how to play them properly
@@ -46,6 +47,7 @@ Each Round has 2 Turns: one for each player. Each Turn has 7 phases:
 - Creatures that are declared as attackers become "Exhausted" (unless they have Stamina) and are unavailable to defend during the subsequent turn
 - The attacking player only selects which creatures they want to attack with. The defending player then chooses what defenders to assign to each attacker, with multiple defenders per attacker being legal
 - In Rampage, damage to creatures is not cleared at the End phase. A 3/3 will kill a 2/2 in combat, but will be left as a 3/1 afterwards. This changes combat math dramatically as compared to MtG! You've been warned...
+
 
 ## Game modes
 Rampage offers three play modes:
