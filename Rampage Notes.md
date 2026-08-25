@@ -73,9 +73,9 @@ Embody aggression, fire, physical strength, destruction, and explosive momentum.
 ### Oceans
 Reward knowledge, flexibility, manipulation, and carefully timed responses. Ocean cards often draw, Discover, Filter, return objects to hand, alter control, or use Flying and reactive effects to outmaneuver the opponent.
 ### Savannahs
-Emphasizes courage, discipline, healing, formation fighting, and communal strength. Savannah armies excel at coordinated combat, protection, Life gain, Boons, and creatures that become stronger when fighting beside allies.
+Emphasize courage, discipline, healing, formation fighting, and communal strength. Savannah armies excel at coordinated combat, protection, Life gain, Boons, and creatures that become stronger when fighting beside allies.
 ### Swamps
-Turns death, sacrifice, decay, fear, and graveyards into resources. Swamp tactics use Wounds, discard, resurrection, death triggers, draining effects, and creatures that remain dangerous even when they die.
+Turn death, sacrifice, decay, fear, and graveyards into resources. Swamp tactics use Wounds, discard, resurrection, death triggers, draining effects, and creatures that remain dangerous even when they die.
 ### Universal
 Universal cards are not tied to one Biome. They include broadly useful creatures, Items, Enchantments, and utility effects that can support many different strategies. Universal does not function as a Biome when satisfying deck-building requirements.
 
