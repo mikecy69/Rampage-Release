@@ -18,7 +18,7 @@ To cast cards, use Items, activate abilities, or choose targets for effects, you
 
 ## Card Types
 - **Creatures**: the beasts used to maul your opponent. Read their keywords carefully to get a sense of how to play them properly.
-**NOTE: For each player, there are only 8 available battlefield spaces for creatures. If a 9th non-token creature is cast, the caster will have to choose which current board spot to replace, or choose not to resolve the creature at all. Any spell/effect that produces tokens will not produce any with a full board. If some spots are open, but not enough for all produced tokens, then a partial number of tokens will be produced to fill the empty slots.**
+&nbsp;&nbsp;&nbsp;&nbsp;NOTE: For each player, there are only 8 available battlefield spaces for creatures. If a 9th non-token creature is cast, the caster will have to choose which current board spot to replace, or choose not to resolve the creature at all. Any spell/effect that produces tokens will not produce any with a full board. If some spots are open, but not enough for all produced tokens, then a partial number of tokens will be produced to fill the empty slots.**
 - **Items**: similar to MtG artifacts, they can be "Attached" to creatures or perform functions on their own
 - **Enchantments**: can also be cast directly onto creatures to provide modifications, or directly onto the battlefield for static global effects
 - **Incantations**: the MtG "Sorcery"; a slow-speed spell
