@@ -60,7 +60,7 @@ Play with a 30-card deck generated from two random Biomes. This mode exposes pla
 ## Deck Construction
 - A constructed deck must be composed of either 1 or 2 different biomes, and have at least 30 cards, but not more than 180. In a 30-card deck, a maximum of 2 Epics are allowed (both must be unique), 6 rares (at most 2 copies of each rare), and 3 copies of any common/uncommon. Once you reach 60 cards, you may have 4 epics (still single copies) and 12 rares (3 copies of each). For 90, 120, 150 and 180 card decks, the numbers scale, but never more than 1 copy of any unique Epic.
 - If a deck has a single biome, ALL dual-biome cards involving that biome are eligible for admission. If the deck is dual-biome, only dual-biome cards of that specific combination are eligible.
-- 
+
 ## The five Biomes
 Each Biome has its own personality. Dual-Biome cards combine themes from two different regions, while Universal cards can be used more broadly.
 
