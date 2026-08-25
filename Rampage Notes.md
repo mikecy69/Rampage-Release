@@ -17,11 +17,11 @@ This guide is a practical introduction for beta testers. The in-game Glossary pr
           replacing cards, attaching Items, and activating abilities. The meter duration can be adjusted in Game Options.
 
 ## Card Types
-  - Creatures: the beasts used to maul your opponent
-  - Items: similar to MtG artifacts, they can be "Attached" to creatures or perform functions on their own
-  - Enchantments: can also be cast directly onto creatures to provide modifications, or directly onto the battlefield for static global effects
-  - Incantations: the MtG "Sorcery"; a slow-speed spell
-  - Spells: the MtG "Instant" that can be cast during all of your turn phases and the opponent's turn
+  - **Creatures**: the beasts used to maul your opponent
+  - **Items**: similar to MtG artifacts, they can be "Attached" to creatures or perform functions on their own
+  - **Enchantments**: can also be cast directly onto creatures to provide modifications, or directly onto the battlefield for static global effects
+  - **Incantations**: the MtG "Sorcery"; a slow-speed spell
+  - **Spells**: the MtG "Instant" that can be cast during all of your turn phases and the opponent's turn
 
 ## Priority and phases
 Each Round has 2 Turns: one for each player. Each Turn has 7 phases:
