@@ -24,8 +24,7 @@ This guide is a practical introduction for beta testers. The in-game Glossary pr
   - Spells: the MtG "Instant" that can be cast during all of your turn phases and the opponent's turn
 
 ## Priority and phases
-Each Round has 2 Turns: one for each player
-Each Turn has 7 phases:
+Each Round has 2 Turns: one for each player. Each Turn has 7 phases:
   - Refresh: Max energy increased by 1 and energy restored to full; creatures lose "Exhausted"
   - Draw: a card is drawn
   - Replace: one card from your hand can be chosen to be shuffled back in your deck; at the same time, a random card from your deck (other than the replaced card) will be drawn;
