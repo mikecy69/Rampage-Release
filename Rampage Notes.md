@@ -92,7 +92,7 @@ When checked, normally beneficial effects (healing, card drawing, etc) may ask f
 ### Auto-Pass Priority with no Legal Moves
 When checked, the game automatically passes priority when you have no legal response. When unchecked, the game stops at priority opportunities even when no legal move is available, allowing closer observation and manual testing.
 
-## Other UI Elements
+## Other In-Match UI Elements
 - Your character portrait can by changed by right-clicking and choosing a different one.
 - Your life total is shown below your portrait. Both players start with 20 Life.
 - A silver timer to the right of your life total counts down how long you have to make decisions before priority is passed to your opponent.
