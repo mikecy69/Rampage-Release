@@ -16,7 +16,7 @@ To cast cards, use Items, activate abilities, or choose targets for effects, you
 - **Left-click and hold** until the timing meter fills - the desired action is performed when the meter is full. Release early to cancel. The green meter is used when casting a card. The blue meter is used for targeting, replacing cards, attaching Items, and activating abilities. The meter duration can be adjusted in Game Options.
 
 ## Card Types
-- **Creatures**: the beasts used to maul your opponent
+- **Creatures**: the beasts used to maul your opponent. Read their keywords carefully to get a sense of how to play them properly
 - **Items**: similar to MtG artifacts, they can be "Attached" to creatures or perform functions on their own
 - **Enchantments**: can also be cast directly onto creatures to provide modifications, or directly onto the battlefield for static global effects
 - **Incantations**: the MtG "Sorcery"; a slow-speed spell
@@ -113,18 +113,18 @@ The CPU has four difficulty levels:
 The current approximate thinking budgets are 0.5 seconds for Casual, 1 second for Normal, 3 seconds for Challenging, and 6 seconds for Expert. Complex positions may still be constrained by the number of legal actions and target combinations.
 
   ### How the CPU thinks
-    The CPU does not follow a fixed script for every card. It generates legal actions and target combinations, simulates their results, and compares the resulting board states using an expected-value model. That evaluation considers factors such as:
-      - Creature Strength, Health, keywords, and persistent damage
-      - Cards in hand and diminishing value near the hand limit
-      - Current and maximum Energy
-      - Hero Life, with increasingly severe penalties at dangerously low Life
-      - Removal, card advantage, control effects, and battlefield presence
-      - Tough, Disciplined, Masterful, Unstoppable, and other combat mechanics
-      - Attack and defense configurations
-      - The value of passing, preserving reactive Spells, or waiting for a better timing window
-      - Replacement decisions during the early, middle, and late game
-      - Likely opponent responses and, at higher levels, defensive needs on the following turn
-    Expert play is still an approximation rather than a perfect solution to every possible position, but its simulation-based approach allows it to recognize many interactions without relying on a separate hard-coded instruction for every card.
+  The CPU does not follow a fixed script for every card. It generates legal actions and target combinations, simulates their results, and compares the resulting board states using an expected-value model. That evaluation considers factors such as:
+  - Creature Strength, Health, keywords, and persistent damage
+  - Cards in hand and diminishing value near the hand limit
+  - Current and maximum Energy
+  - Hero Life, with increasingly severe penalties at dangerously low Life
+  - Removal, card advantage, control effects, and battlefield presence
+  - Tough, Disciplined, Masterful, Unstoppable, and other combat mechanics
+  - Attack and defense configurations
+  - The value of passing, preserving reactive Spells, or waiting for a better timing window
+  - Replacement decisions during the early, middle, and late game
+  - Likely opponent responses and, at higher levels, defensive needs on the following turn
+  Expert play is still an approximation rather than a perfect solution to every possible position, but its simulation-based approach allows it to recognize many interactions without relying on a separate hard-coded instruction for every card.
 
 ## Helpful beta-testing habits
 - Read the phase and sub-phase labels before acting
