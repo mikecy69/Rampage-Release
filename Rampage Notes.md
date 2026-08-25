@@ -46,23 +46,21 @@ Each Round has 2 Turns: one for each player. Each Turn has 7 phases:
 - In Rampage, damage to creatures is not cleared at the End phase. A 3/3 will kill a 2/2 in combat, but will be left as a 3/1 afterwards. This changes combat math dramatically as compared to MtG! You've been warned...
 
 ## Game modes
-Rampage offers three main play modes:
+Rampage offers three play modes:
 
 - **Constructed**
-Build and bring your own deck. Choose cards that satisfy the deck-building rules for your selected Biomes, save the deck, and refine it between matches.
+Choose your Biomes, build your own deck. Choose cards that satisfy the deck construction rules (shown below), save the deck, and refine it between matches.
     
 - **Draft**
-Build a 30-card deck by choosing cards from a sequence of random offerings. Your Biome choices determine which cards may appear. Draft decks keep a win-loss record and retire after reaching seven wins or three losses.
+Build a 30-card deck by choosing cards from a sequence of random offerings. Your initial Biome choices determine what cards appear. Draft decks keep a win-loss record and retire after reaching seven wins or three losses.
     
 - **Randomly-Generated**
 Play with a 30-card deck generated from two random Biomes. This mode exposes players to a wider variety of cards and interactions. Generated decks also keep a win-loss record and retire after seven wins or three losses.
 
 ## Deck Construction
-- A constructed deck must be composed of either 1 or 2 different biomes, and have at least 30 cards, but not more than 180. In a 30-card deck, a maximum of 2 Epics are allowed (both must be unique), 6 rares (at most 2 copies of each rare), and 3 copies of any common/uncommon.
-      Once you reach 60 cards, you may have 4 epics (still single copies) and 12 rares (3 copies of each). For 90, 120, 150 and 180 card decks, the numbers scale, but never more than 1 copy of any unique Epic.
+- A constructed deck must be composed of either 1 or 2 different biomes, and have at least 30 cards, but not more than 180. In a 30-card deck, a maximum of 2 Epics are allowed (both must be unique), 6 rares (at most 2 copies of each rare), and 3 copies of any common/uncommon. Once you reach 60 cards, you may have 4 epics (still single copies) and 12 rares (3 copies of each). For 90, 120, 150 and 180 card decks, the numbers scale, but never more than 1 copy of any unique Epic.
 - If a deck has a single biome, ALL dual-biome cards involving that biome are eligible for admission. If the deck is dual-biome, only dual-biome cards of that specific combination are eligible.
-    
-
+- 
 ## The five Biomes
 Each Biome has its own personality. Dual-Biome cards combine themes from two different regions, while Universal cards can be used more broadly.
 
