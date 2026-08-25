@@ -64,20 +64,20 @@ Play with a 30-card deck generated from two random Biomes. This mode exposes pla
 ## The five Biomes
 Each Biome has its own personality. Dual-Biome cards combine themes from two different regions, while Universal cards can be used more broadly.
 
-### Forest
+### Forests
 Represent growth, endurance, natural adaptation, and interconnected life. Forest creatures tend to build lasting battlefield value through healing, Boons, regeneration, tribal cooperation, and efficient creature development.
     
-### Mountain
+### Mountains
 Embody aggression, fire, physical strength, destruction, and explosive momentum. This biome favors hard-hitting creatures, direct damage, combat pressure, destructive abilities, and fast attacks.
     
-### Ocean
+### Oceans
 Reward knowledge, flexibility, manipulation, and carefully timed responses. Ocean cards often draw, Discover, Filter, return objects to hand, alter control, or use Flying and reactive effects to outmaneuver the opponent.
     
-### Savannah
+### Savannahs
 Emphasizes courage, discipline, healing, formation fighting, and communal strength. Savannah armies excel at coordinated combat, protection, Life gain, Boons, and creatures that become stronger when fighting beside allies.
     
-### Swamp
-Turns death, sacrifice, decay, fear, and graveyards into resources. Swamp uses Wounds, discard, resurrection, death triggers, draining effects, and creatures that remain dangerous even when they die.
+### Swamps
+Turns death, sacrifice, decay, fear, and graveyards into resources. Swamp tactics use Wounds, discard, resurrection, death triggers, draining effects, and creatures that remain dangerous even when they die.
     
 ### Universal
 Universal cards are not tied to one Biome. They include broadly useful creatures, Items, Enchantments, and utility effects that can support many different strategies. Universal does not function as a Biome when satisfying deck-building requirements.
