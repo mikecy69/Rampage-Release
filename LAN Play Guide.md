@@ -27,7 +27,7 @@ Rampage can currently connect two PCs to the same private LAN room. The room ser
 
 ## Joining a room and starting a game
 1. Start Rampage on the second PC
-2. Each player should have already selected a legal deck from the Play Match > Matching Menu
+2. Each player should select a legal deck from the Play Match > Matching Menu
 > Note: Any legal deck (Constructed/Draft/Generated) may be matched against any other legal deck
 4. Open **Play Match**, then select **Create/Join Online Game**
 5. Enter the host's local IPv4 address in **Host PC Address**. The `:3000` port is optional; Rampage adds it automatically when omitted
