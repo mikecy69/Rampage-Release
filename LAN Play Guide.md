@@ -2,14 +2,7 @@
 
 ## Current beta status
 
-Rampage can currently connect two PCs to the same private LAN room.
-The room server, room code, two-player limit, connection status, reconnection
-credentials, and abandonment timer are implemented.
-
-The authoritative human-versus-human duel is **not yet connected to that
-room**. In the current build, the steps below test room creation and joining;
-they do not yet launch a playable two-human match. Human-versus-human play will
-be enabled after the shared game engine is moved into the LAN server.
+Rampage can currently connect two PCs to the same private LAN room. The room server, room code, two-player limit, connection status, reconnection credentials, and abandonment timer are implemented.
 
 ## What both players need
 - Two Windows PCs connected to the same home Wi-Fi or Ethernet network
@@ -32,13 +25,17 @@ be enabled after the shared game engine is moved into the LAN server.
 3. Find **IPv4 Address** under the active Wi-Fi or Ethernet adapter. It normally resembles `192.168.1.25` or `10.0.0.14`
 4. Give that local address to the joining player. Do not use the router's public IP address
 
-## Join the room
-1. Start the same Rampage beta version on the second PC
-2. Open **Play Match**, then select **Create/Join Online Game**
-3. Enter the host's local IPv4 address in **Host PC Address**. The `:3000` port is optional; Rampage adds it automatically when omitted
-4. Enter the four-character room code
-5. Select **Join Host**
-6. The LAN Lobby should list both players as **Connected**
+## Joining a room and starting a game
+1. Start Rampage on the second PC
+2. Each player should have already selected a legal deck from the Play Match > Matching Menu
+> Note: Any legal deck (Constructed/Draft/Generated) may be matched against any other legal deck
+4. Open **Play Match**, then select **Create/Join Online Game**
+5. Enter the host's local IPv4 address in **Host PC Address**. The `:3000` port is optional; Rampage adds it automatically when omitted
+6. Enter the four-character room code
+7. Select **Join Host**
+8. The LAN Lobby should list both players as **Connected** and the game should begin
+> Note: The server on the host PC creates one authoritative engine after both players are connected. Clients send only commands — cast, target, attack, defend, pass, etc. The server validates and dispatches each command,
+then broadcasts the resulting state. Disconnect timeout (2 minutes) results in a forfeit. The existing duel UI is adapted to consume either the current local CPU adapter or a network-backed LAN adapter.
 
 ## Troubleshooting
 If the second PC cannot connect:
