@@ -1,5 +1,5 @@
 # Rampage Notes
-Rampage is a creature-centered card game in which players summon creatures, wield Items, establish Enchantments, and use Spells and Incantations to defeat the opposing hero. Reduce the opposing hero's Life to zero to win the duel.
+Rampage is a creature-centered card game in which players summon creatures, wield Items, establish Enchantments, and use Spells and Incantations to defeat the opposing hero. Reduce the opposing hero's Life to zero to win the match.
 This guide is a practical introduction for beta testers. The in-game Glossary provides definitions for keywords and rules terminology found on individual cards.
 
 ## Inspecting cards and card elements
@@ -77,14 +77,14 @@ Turn death, sacrifice, decay, fear, and graveyards into resources. Swamp tactics
 Universal cards are not tied to one Biome. They include broadly useful creatures, Items, Enchantments, and utility effects that can support many different strategies. Universal does not function as a Biome when satisfying deck-building requirements.
 
 ## Game Options
-During a duel, the Settings icon in the upper-left corner of the match screen opens the **Game Options** modal. The modal contains navigation controls, display and audio settings, gameplay preferences, the Glossary, and the option to Resign.
+During a match, the Settings icon in the upper-left corner of the match screen opens the **Game Options** modal. The modal contains navigation controls, display and audio settings, gameplay preferences, the Glossary, and the option to Resign.
 
 ### Card Size
 Changes the size of cards shown on the battlefield
 ### Cast-Meter Duration
 Controls how long you must hold the mouse button before a hold-to-cast or hold-to-target action completes
 ### Music Volume
-Controls landing-screen and duel background music
+Controls landing-screen and match background music
 ### Sound Effects
 Controls casting, targeting, movement, combat, draw, replace, and other gameplay sounds
 ### Make beneficial effects optional
@@ -99,7 +99,7 @@ When checked, the game automatically passes priority when you have no legal resp
 - The **Phase Wheel** rotates to show you the Turn phase. The apex of that wheel is green during your turn and gray during the opponent's turn.
 - The **Energy Wheel** shows you how many maximum and available energy "pips" you currently have. Available pips are filled blue, unavailable are empty circles. In Rampage, maximum energy starts at 1 on Turn 1 and increases by 1 each turn. It rises no higher than 10.
 - Your library and graveyard at shown at the lower left. You can click your graveyard to open it and view the cards there.
-- The "stack" is shown in the left-middle of the screen during a duel. That's where actions go before they are resolved. Players get an opportunity to react to most stack actions with Spells or Spell-speed abilities.
+- The "stack" is shown in the left-middle of the screen during a match. That's where actions go before they are resolved. Players get an opportunity to react to most stack actions with Spells or Spell-speed abilities.
 
 ## CPU difficulty
 The CPU has four difficulty levels:
