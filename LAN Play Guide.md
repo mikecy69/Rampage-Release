@@ -33,9 +33,9 @@ Rampage can currently connect two PCs to the same private LAN room. The room ser
 5. Enter the host's local IPv4 address in **Host PC Address**. The `:3000` port is optional; Rampage adds it automatically when omitted
 6. Enter the four-character room code
 7. Select **Join Host**
-8. The LAN Lobby should list both players as **Connected** and the game should begin
+8. The LAN Lobby should list both players as **Connected** and the Match should begin
 > Note: The server on the host PC creates one authoritative engine after both players are connected. Clients send only commands — cast, target, attack, defend, pass, etc. The server validates and dispatches each command,
-then broadcasts the resulting state. Disconnect timeout (2 minutes) results in a forfeit. The existing duel UI is adapted to consume either the current local CPU adapter or a network-backed LAN adapter.
+then broadcasts the resulting state. Disconnect timeout (2 minutes) results in a forfeit. The existing match UI is adapted to consume either the current local CPU adapter or a network-backed LAN adapter.
 
 ## Troubleshooting
 If the second PC cannot connect:
