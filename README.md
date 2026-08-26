@@ -32,6 +32,9 @@ Never run an installer received from an unknown person or an unofficial mirror.
 
 Read [Rampage Notes](Rampage%20Notes.md) for controls, game modes, Biome flavor descriptions, match options, and CPU difficulty information.
 
+For two-PC room connection instructions and the current human-versus-human beta
+status, read the [Rampage LAN Play Guide](LAN%20Play%20Guide.md).
+
 ## Beta feedback
 
 Rampage is still being refined. If you encounter a problem or notice card balance issues, please include:
