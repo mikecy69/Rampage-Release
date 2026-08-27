@@ -30,7 +30,7 @@ Never run an installer received from an unknown person or an unofficial mirror.
 
 ## Before playing
 
-Read [Rampage Notes](Rampage%20Notes.md) for controls, game modes, Biome flavor descriptions, match options, and CPU difficulty information.
+Read [Rampage Notes](Rampage%20Notes.md) for controls, action-resolution methods, game modes, Biome flavor descriptions, match options, and CPU difficulty information. Card choices from the library, hand, or graveyard use focused legal-choice modals, while casting and battlefield targeting use double-click or click-and-hold meters.
 
 For two-PC room connection instructions and the current human-versus-human beta
 status, read the [Rampage LAN Play Guide](LAN%20Play%20Guide.md).

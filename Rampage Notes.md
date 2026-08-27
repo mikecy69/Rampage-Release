@@ -10,11 +10,24 @@ This guide is a practical introduction for beta testers. The in-game Glossary pr
 - The bottom of the card has card text explaining what the card does
 - For creature cards, at the bottom you'll find gold keywords for creature abilities, and the Strength / Health of a creature in the lower right
 
-## Casting cards and using abilities
-To cast cards, use Items, activate abilities, or choose targets for effects, you can use several methods:
-- **Double-click** the card or target
-- **Left-click and hold** until the timing meter fills - the desired action is performed when the meter is full. Release early to cancel. The green meter is used when casting a card. The blue meter is used for targeting, replacing cards, attaching Items, and activating abilities. The meter duration can be adjusted in Game Options.
-- To the right of your cards in hand is the **Action Button** area. You can "commit" your actions by clicking the buttons shown here, whose labels change depending on the current game actions
+## Resolving actions
+Rampage uses two clear interaction systems, depending on where the choice is being made.
+
+### Cards and battlefield targets
+Casting a card from your hand and selecting battlefield targets for stack actions can generally be completed in either of two ways:
+- **Double left-click** the card or legal target
+- **Left-click and hold** until the timing meter fills. Release early to cancel.
+
+The meter color identifies the action:
+- A **green meter** casts a card from your hand
+- A **blue meter** selects or activates every other action, including battlefield targets, Item attachment, and activated Creature, Item, or Enchantment abilities
+
+Battlefield targeting is used for triggered abilities that enter the stack, including ETB, damage-dealt, and dying triggers. The action occurs when the blue meter fills or the target is double-clicked. The meter duration can be adjusted in Game Options.
+
+### Choices from hidden zones
+Actions that select cards from a library, hand, or graveyard use focused pop-up modals containing the legal choices. This applies to **Replace, Filter, Unearth, Resurrect, selective Discard, Search Library, and Pilfer**. Select a legal card in the modal and confirm it using the clearly labeled button; supported selection modals may also allow a double-click to select and confirm immediately. Random discard effects resolve automatically and do not require a selection modal.
+
+To the right of your cards in hand is the **Action Button** area. Its labels change to describe the action currently available.
 
 ## Card Types
 - **Creatures**: the beasts used to maul your opponent. Read their keywords carefully to get a sense of how to play them properly.
@@ -28,8 +41,7 @@ To cast cards, use Items, activate abilities, or choose targets for effects, you
 Each Round has 2 Turns: one for each player. Each Turn has 7 phases:
 - **Refresh**: Max energy increased by 1 and energy restored to full; creatures lose "Exhausted"
 - **Draw**: a card is drawn
-- **Replace**: one card from your hand can be chosen to be shuffled back in your deck; at the same time, a random card from your deck (other than the replaced card) will be drawn;
-  during the Replace phase, the blue hazy rectangle over your hand is a visual indication that clicked cards will be replace in this phase, not cast
+- **Replace**: a pop-up modal displays the eligible cards in your hand. You may choose one to exchange for a random card from your library.
 - **Preparation**: Pre-combat phase where all cards types can be cast
 - **Combat**: The active player declares attackers, then the other player declares defenders; combat damage is assigned and then damage resolves and the battlefield is cleaned up
 - **Triage**: Post-combat phase where all cards types can be cast
