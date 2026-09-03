@@ -1,6 +1,6 @@
 # Rampage
 
-Rampage is a creature-centered digital card game featuring more than 300 cards, five distinctive Biomes, tactical combat, responsive card play, and a simulation-based CPU opponent. There will be human vs human matches in later versions.
+Rampage is a creature-centered digital card game featuring a 357-card catalog, five distinctive Biomes, tactical combat, responsive card play, and a simulation-based CPU opponent. The current beta also supports authoritative two-player matches between Windows PCs on the same private local network.
 
 This public repository contains Windows beta installers, release notes, screenshots, and player instructions. It does **not** contain the Rampage source code.
 
@@ -16,6 +16,17 @@ This public repository contains Windows beta installers, release notes, screensh
 
 The installer is intended to include the Rampage application, its required runtime, card art, audio, maps, and other game assets. Testers should not need to install Node.js, Git, Chrome, or the source project separately. Rampage opens in its own application window rather than an ordinary browser tab.
 
+## Current beta features
+
+- Constructed, Draft, and Randomly-Generated deck formats
+- Solo play against Casual, Normal, Challenging, or Expert CPU opponents
+- Two-player LAN matches with room codes, authoritative server validation, reconnection, and private player views
+- A 357-card catalog across Forest, Mountain, Ocean, Savannah, Swamp, dual-Biome, and Universal card pools
+- Stack interaction, priority, seven turn phases, activated and triggered abilities, Items, Enchantments, and persistent creature damage
+- Save/load support, resumable Drafts, deck records, a searchable Glossary, card previews, sound, and card-movement animations
+
+Rampage remains a beta. Card balance, CPU decisions, presentation, and edge-case rules interactions are still being playtested and refined.
+
 ## Windows SmartScreen notice
 
 Early beta installers may not yet be digitally code-signed. Windows may therefore display a **Windows protected your PC** or **Unknown publisher** warning even when the installer was downloaded from this official repository.
@@ -30,7 +41,7 @@ Never run an installer received from an unknown person or an unofficial mirror.
 
 ## Before playing
 
-Read [Rampage Notes](Rampage%20Notes.md) for controls, action-resolution methods, game modes, Biome flavor descriptions, match options, and CPU difficulty information. Card choices from the library, hand, or graveyard use focused legal-choice modals, while casting and battlefield targeting use double-click or click-and-hold meters.
+Read [Rampage Notes](Rampage%20Notes.md) for controls, action-resolution methods, game modes, Biome flavor descriptions, match options, hand limits, and CPU difficulty information. Card choices from the library, hand, or graveyard use focused legal-choice modals, while casting and battlefield targeting use double-click or click-and-hold meters.
 
 For two-PC room connection instructions and the current human-versus-human beta
 status, read the [Rampage LAN Play Guide](LAN%20Play%20Guide.md).

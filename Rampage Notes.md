@@ -1,5 +1,5 @@
 # Rampage Notes
-Rampage is a creature-centered card game in which players summon creatures, wield Items, establish Enchantments, and use Spells and Incantations to defeat the opposing hero. Reduce the opposing hero's Life to zero to win the match.
+Rampage is a creature-centered card game with a 357-card catalog in which players summon creatures, wield Items, establish Enchantments, and use Spells and Incantations to defeat the opposing hero. Reduce the opposing hero's Life to zero to win the match.
 This guide is a practical introduction for beta testers. The in-game Glossary provides definitions for keywords and rules terminology found on individual cards.
 
 ## Inspecting cards and card elements
@@ -7,6 +7,7 @@ This guide is a practical introduction for beta testers. The in-game Glossary pr
 - Left-click a currently hovered over card to freeze the larger hover image in place, allowing you to inspect its text and hover explanations
 - Right-click a card to bring up a "Huge" version of the card for closer inspection
 - At the top left of each card is its name; casting cost (energy) is at the top right. Under that is a rarity symbol (Common, Uncommon, Rare, Epic) and the card type (Creature, Item, Enchantment, Spell, Incantation).
+- The displayed Energy cost reflects active cost modifiers. For example, multiple copies of Burst of Brain Power and opposing copies of Drag Down are combined before a Spell or Incantation's hand cost is shown.
 - The bottom of the card has card text explaining what the card does
 - For creature cards, at the bottom you'll find gold keywords for creature abilities, and the Strength / Health of a creature in the lower right
 
@@ -23,6 +24,8 @@ The meter color identifies the action:
 - A **blue meter** selects or activates every other action, including battlefield targets, Item attachment, and activated Creature, Item, or Enchantment abilities
 
 Battlefield targeting is used for triggered abilities that enter the stack, including ETB, damage-dealt, and dying triggers. The action occurs when the blue meter fills or the target is double-clicked. The meter duration can be adjusted in Game Options.
+
+Creatures and other permanents with one available activated ability begin that ability directly. A choice modal is shown only when an object has multiple currently available activated abilities.
 
 ### Choices from hidden zones
 Actions that select cards from a library, hand, or graveyard use focused pop-up modals containing the legal choices. This applies to **Replace, Filter, Unearth, Resurrect, selective Discard, Search Library, and Pilfer**. Select a legal card in the modal and confirm it using the clearly labeled button; supported selection modals may also allow a double-click to select and confirm immediately. Random discard effects resolve automatically and do not require a selection modal.
@@ -52,8 +55,15 @@ Each Round has 2 Turns: one for each player. Each Turn has 7 phases:
 - **Pass Priority** yields the current opportunity to respond without necessarily ending the phase.
 - A red "End [Phase Name]" button permanently ends that phase and gives up any remaining opportunities available in it
 - Combat buttons confirm selected attackers, defender positioning, and damage decisions
-- The phase wheel above the player portrait and phase labels to the right of the player's hand show the current phase
+- The static seven-pip phase wheel is anchored at the bottom-right of the playmat. Refresh begins at the lower-left, Preparation occupies the apex, and End finishes at the lower-right. The enlarged lettered pip identifies the current phase; completed phases are gray and upcoming phases are yellow, with green or blue borders indicating whose turn it is.
+- When Auto-Pass skips a phase with no legal action, the phase remains visible for about half a second before play advances.
 - The player going first on Turn 1 will not draw a card for that Turn.
+
+## Hand size and layout
+- Six cards is the maximum hand size enforced during the End phase. A hand may temporarily exceed six earlier in the turn, but excess cards must be discarded before that turn ends.
+- Hands containing seven cards or fewer retain the curved tabletop fan.
+- At eight or more cards, the hand changes to a straight horizontal rail with a scrollbar so every physical card remains reachable.
+- Forced random discards play the discard sound and animate the discarded card from its hand position to the graveyard.
 
 ## Combat
 - Creatures that are declared as attackers become "Exhausted" (unless they have Stamina) and are unavailable to defend during the subsequent turn
@@ -65,11 +75,11 @@ Rampage offers three play modes:
 
 - **Constructed**
 Choose your Biomes (limit of 2), build your own deck. If a deck has a single biome, ALL dual-biome cards involving that biome are eligible for admission. If the deck is dual-biome, only dual-biome cards of that specific combination are eligible. Choose cards that satisfy the deck construction rules, save the deck, and refine it between matches. You can assign saved decks to the CPU to play against you! You could have mirror matches of the same deck, or play one of your other decks to test both out.
-> Construction Rules: a deck must have at least 30 cards, but not more than 180. In a 30-card deck, a maximum of 2 Epics are allowed (both must be unique), 6 rares (at most 2 copies of each rare), and 3 copies of any common/uncommon. Once you reach 60 cards, you may have 4 epics (still single copies) and 12 rares (3 copies of each). For 90, 120, 150 and 180 card decks, the numbers scale, but never more than 3 copies of any non-epic, and 1 copy of any unique Epic is allowed. The exception is Creatures with the Keyword "Tribal." For those cards, you may have 5 of the exact same card in a 30 card deck, 10 in a 60 card deck, etc.
+> Construction Rules: a deck may contain any number of cards from 40 through 120. A 40-79 card deck may contain at most 3 unique Epics and 7 Rares; at 80 cards those allowances increase to 6 unique Epics and 14 Rares; at 120 cards they increase to 9 unique Epics and 21 Rares. Only one copy of each Epic, no more than two copies of any particular Rare, and no more than three copies of any particular Common or Uncommon are allowed. The exception is a Creature with Tribal, for which up to six copies of that exact card are allowed.
 - **Draft**
 Build a 30-card deck by choosing cards from a sequence of random offerings: 30 sets of 4 cards. Your initial Biome choices determine what cards appear. Each drafter will be offered exactly 2 epics and 8 rares in the 120 cards; the rest will be commons and uncommons. There are 2 "Two Pick" tokens the drafter can spend to draft 2 cards, rather than 1, out of the set of 4 that are offered. Draft decks keep a win-loss record and retire after reaching seven wins or three losses.
 - **Randomly-Generated**
-Play with a 30-card deck generated from two random Biomes. This mode exposes players to a wider variety of cards and interactions. Generated decks also keep a win-loss record and retire after seven wins or three losses.
+Play with a 40-card deck generated from two random Biomes. Each deck contains 20-25 Creatures, 5-7 Rares (no more than two copies of one Rare), 2-3 unique Epics, and no more than three copies of any Common or Uncommon. Its curve contains 20-24 cards costing 1-3 Energy, 10-14 cards costing 4-5 Energy, and 5-7 cards costing 6 or more Energy. This mode exposes players to a wider variety of cards and interactions. Generated decks also keep a win-loss record and retire after seven wins or three losses.
 > NOTE: When a player's library is gone, they will lose 1 Life at the start of their next turn, then 2 Life at the start of their next turn, then 3 Life at the start of their next turn, etc., until some player wins the game.
 
 ## The five Biomes
@@ -102,13 +112,17 @@ Controls casting, targeting, movement, combat, draw, replace, and other gameplay
 ### Make beneficial effects optional
 When checked, normally beneficial effects (healing, card drawing, etc) may ask for confirmation instead of resolving automatically. Leave it unchecked for automatic resolution of untargeted beneficial effects whenever the rules permit.
 ### Auto-Pass Priority with no Legal Moves
-When checked, the game automatically passes priority when you have no legal response. When unchecked, the game stops at priority opportunities even when no legal move is available, allowing closer observation and manual testing.
+When checked, the game automatically passes priority when you have no legal response. Skipped phases remain displayed for about 0.5 seconds so the phase change is still visible. When unchecked, the game stops at priority opportunities even when no legal move is available, allowing closer observation and manual testing.
+### Turn on targeting explanation prompts
+When checked, a centered prompt explains what kind of target the current action requires. This is especially useful when a single activated ability begins without an ability-choice modal.
+### Reveal Opponent Hand
+Shows the opponent's hand faces for testing and debugging. Leave it unchecked for normal hidden-information play.
 
 ## Other In-Match UI Elements
 - Your character portrait can by changed by right-clicking and choosing a different one.
 - Your life total is shown below your portrait. Both players start with 20 Life.
 - A silver timer to the right of your life total counts down how long you have to make decisions before priority is passed to your opponent.
-- The **Phase Wheel** rotates to show you the Turn phase. The apex of that wheel is green during your turn and gray during the opponent's turn.
+- The **Phase Wheel** is a fixed semicircle at the bottom-right of the playmat. Its enlarged lettered pip moves from Refresh on the left to End on the right. Save Game and Log controls sit beneath the wheel.
 - The **Energy Wheel** shows you how many maximum and available energy "pips" you currently have. Available pips are filled blue, unavailable are empty circles. In Rampage, maximum energy starts at 1 on Turn 1 and increases by 1 each turn. It rises no higher than 10.
 - Your library and graveyard at shown at the lower left. You can click your graveyard to open it and view the cards there.
 - The "stack" is shown in the left-middle of the screen during a match. That's where actions go before they are resolved. Players get an opportunity to react to most stack actions with Spells or Spell-speed abilities.
@@ -119,7 +133,7 @@ The CPU has four difficulty levels:
 - **Normal** — Searches more alternatives with less randomness and provides a moderate challenge.
 - **Challenging** — Examines substantially more plays and combat configurations and forecasts important consequences into the opponent's next turn.
 - **Expert** — Uses the broadest search, deepest rollouts, strongest combat exploration, no deliberate scoring noise, and next-turn forecasting. Intended to find the highest-value line available within its thinking budget.
-The current approximate thinking budgets are 0.5 seconds for Casual, 1 second for Normal, 3 seconds for Challenging, and 6 seconds for Expert. Complex positions may still be constrained by the number of legal actions and target combinations.
+The current approximate thinking budgets are 1 second for Casual, 2 seconds for Normal, 4 seconds for Challenging, and 7 seconds for Expert. Complex positions may still be constrained by the number of legal actions and target combinations.
 
 ### How the CPU thinks
 The CPU does not follow a fixed script for every card. It generates legal actions and target combinations, simulates their results, and compares the resulting board states using an expected-value model. That evaluation considers factors such as:
@@ -128,11 +142,14 @@ The CPU does not follow a fixed script for every card. It generates legal action
 - Current and maximum Energy
 - Hero Life, with increasingly severe penalties at dangerously low Life
 - Removal, card advantage, control effects, and battlefield presence
+- Live battlefield value, including damage, Wounds, Boons, attached Items, attachment investment, exhaustion, and disabling Enchantments
+- Separate penalties for killing or bouncing cards whose death, return-to-hand, or replay value makes that interaction dangerous
 - Tough, Disciplined, Masterful, Unstoppable, and other combat mechanics
 - Attack and defense configurations
 - The value of passing, preserving reactive Spells, or waiting for a better timing window
 - Replacement decisions during the early, middle, and late game
 - Likely opponent responses and, at higher levels, defensive needs on the following turn
+- Guaranteed next-turn lethal through ordinary combat, Flying, Elusive, and Unstoppable damage when deciding whether concession is appropriate
 Expert play is still an approximation rather than a perfect solution to every possible position, but its simulation-based approach allows it to recognize many interactions without relying on a separate hard-coded instruction for every card.
 
 ## Helpful beta-testing habits

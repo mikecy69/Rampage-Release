@@ -2,7 +2,7 @@
 
 ## Current beta status
 
-Rampage can currently connect two PCs to the same private LAN room. The room server, room code, two-player limit, connection status, reconnection credentials, and abandonment timer are implemented.
+Rampage currently supports authoritative two-player matches between Windows PCs in the same private LAN room. The host runs the match engine; both clients send commands and receive player-appropriate state. Room codes, a two-player limit, connection status, reconnection credentials, and abandonment timers are implemented.
 
 ## What both players need
 - Two Windows PCs connected to the same home Wi-Fi or Ethernet network
@@ -28,14 +28,23 @@ Rampage can currently connect two PCs to the same private LAN room. The room ser
 ## Joining a room and starting a game
 1. Start Rampage on the second PC
 2. Each player should select a legal deck from the Play Match > Matching Menu
-> Note: Any legal deck (Constructed/Draft/Generated) may be matched against any other legal deck
-4. Open **Play Match**, then select **Create/Join Online Game**
-5. Enter the host's local IPv4 address in **Host PC Address**. The `:3000` port is optional; Rampage adds it automatically when omitted
-6. Enter the four-character room code
-7. Select **Join Host**
-8. The LAN Lobby should list both players as **Connected** and the Match should begin
-> Note: The server on the host PC creates one authoritative engine after both players are connected. Clients send only commands — cast, target, attack, defend, pass, etc. The server validates and dispatches each command,
-then broadcasts the resulting state. Disconnect timeout (2 minutes) results in a forfeit. The existing match UI is adapted to consume either the current local CPU adapter or a network-backed LAN adapter.
+3. Open **Play Match**, then select **Create/Join Online Game**
+4. Enter the host's local IPv4 address in **Host PC Address**. The `:3000` port is optional; Rampage adds it automatically when omitted
+5. Enter the four-character room code
+6. Select **Join Host**
+7. The LAN Lobby should list both players as **Connected** and the Match should begin
+
+> Note: Any legal Constructed, Draft, or Randomly-Generated deck may be matched against any other legal deck.
+
+> Note: The server on the host PC creates one authoritative engine after both players are connected. Clients send only commands—cast, target, attack, defend, pass, and similar actions. The server validates and dispatches each command, then broadcasts the resulting player-appropriate state. A two-minute disconnect timeout results in a forfeit.
+
+## Current LAN limitations
+
+- LAN play is limited to two players on the same trusted private network
+- Both PCs must run the same Rampage beta version
+- Rooms and in-progress LAN matches are held in memory and are not saved to disk
+- The host PC must keep Rampage running for the room and match to remain available
+- Internet matchmaking, public servers, spectators, and router traversal are not part of the current beta
 
 ## Troubleshooting
 If the second PC cannot connect:
@@ -44,7 +53,7 @@ If the second PC cannot connect:
 3. On the joining PC, open `http://HOST-ADDRESS:3000/health` in a browser, replacing `HOST-ADDRESS` with the host IPv4 address. A reachable server returns a short JSON response containing `"ok":true`
 4. Allow Rampage on Private networks in Windows Firewall
 5. Avoid guest Wi-Fi, which may prevent devices from communicating with one another
-6. Restart Rampage on the host and create a new room code.
+6. Restart Rampage on the host and create a new room code
 
 ## Disconnects and room lifetime
 - LAN rooms are kept in memory and are not saved to disk
